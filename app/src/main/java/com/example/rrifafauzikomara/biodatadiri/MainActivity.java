@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText editTextNama, editTextAlamat, editTextKesan;
     private Button simpan, kembali;
     private RadioGroup rgJenkel;
-    private static final String REGISTER_URL = "https://hujanromantis.000webhostapp.com/web_service/Kesan/kesan.php";
+    private static final String REGISTER_URL = "https://isna22.000webhostapp.com/web_service/Kesan/kesan.php";
     String fullname, gender, address, kesan;
 
     @Override

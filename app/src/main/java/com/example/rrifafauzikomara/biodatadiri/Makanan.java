@@ -22,7 +22,7 @@ public class Makanan extends AppCompatActivity {
     private Button buttonView;
     private Button buttonBack;
 
-    private static final String REGISTER_URL = "https://hujanromantis.000webhostapp.com/web_service/Makanan/makanan.php";
+    private static final String REGISTER_URL = "https://isna22.000webhostapp.com/web_service/Makanan/makanan.php";
     String nama_makanan, asal_makanan, harga_makanan;
 
     @Override

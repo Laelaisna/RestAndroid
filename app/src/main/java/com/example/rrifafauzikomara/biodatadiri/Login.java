@@ -17,7 +17,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
 
     public static final String USER_NAME = "USER_NAME";
 
-    private static final String LOGIN_URL = "https://hujanromantis.000webhostapp.com/web_service/login.php";
+    private static final String LOGIN_URL = "https://isna22.000webhostapp.com/web_service/login.php";
 
     private EditText editTextUserName;
     private EditText editTextPassword;

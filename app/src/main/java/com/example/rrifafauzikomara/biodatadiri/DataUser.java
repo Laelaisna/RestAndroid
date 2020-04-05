@@ -75,7 +75,7 @@ public class DataUser extends AppCompatActivity {
             @Override
             protected String doInBackground(Void... params) {
                 RequestHandler rh = new RequestHandler();
-                String s = rh.sendGetRequest("https://hujanromantis.000webhostapp.com/web_service/User/get_all_user.php");
+                String s = rh.sendGetRequest("https://isna22.000webhostapp.com/web_service/User/get_all_user.php");
                 return s;
             }
         }

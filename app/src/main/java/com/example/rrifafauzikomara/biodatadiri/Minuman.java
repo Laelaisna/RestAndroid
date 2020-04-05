@@ -18,7 +18,7 @@ public class Minuman extends AppCompatActivity {
     private EditText editTextName, editTextPeru, editTextNetto, editTextPesan;
     private RadioGroup rgSedotan, rgTempat;
     private Button buttonAdd, buttonView, buttonBack;
-    private static final String REGISTER_URL = "https://hujanromantis.000webhostapp.com/web_service/Minuman/minuman.php";
+    private static final String REGISTER_URL = "https://isna22.000webhostapp.com/web_service/Minuman/minuman.php";
     String nama_minuman, perusahaan, netto, sedotan, tempat, nama_pemesan;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

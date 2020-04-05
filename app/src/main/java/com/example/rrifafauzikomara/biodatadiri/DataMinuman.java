@@ -71,7 +71,7 @@ public class DataMinuman extends AppCompatActivity {
             @Override
             protected String doInBackground(Void... params){
                 RequestHandler rh = new RequestHandler();
-                String s = rh.sendGetRequest("https://hujanromantis.000webhostapp.com/web_service/get_all_minuman.php");
+                String s = rh.sendGetRequest("https://isna22.000webhostapp.com/web_service/get_all_minuman.php");
                 return s;
             }
         }

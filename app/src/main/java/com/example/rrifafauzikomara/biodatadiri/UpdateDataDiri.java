@@ -87,7 +87,7 @@ public class UpdateDataDiri extends AppCompatActivity {
             @Override
             protected String doInBackground(Void... params) {
                 RequestHandler rh = new RequestHandler();
-                String s = rh.sendGetRequestParam("https://hujanromantis.000webhostapp.com/web_service/Kesan/get_kesan.php?id=",id);
+                String s = rh.sendGetRequestParam("https://isna22.000webhostapp.com/web_service/Kesan/get_kesan.php?id=",id);
                 return s;
             }
         }
@@ -156,7 +156,7 @@ public class UpdateDataDiri extends AppCompatActivity {
 
                 RequestHandler rh = new RequestHandler();
 
-                String s = rh.sendPostRequest("https://hujanromantis.000webhostapp.com/web_service/Kesan/update_kesan.php", hashMap);
+                String s = rh.sendPostRequest("https://isna22.000webhostapp.com/web_service/Kesan/update_kesan.php", hashMap);
 
                 return s;
             }
@@ -186,7 +186,7 @@ public class UpdateDataDiri extends AppCompatActivity {
             @Override
             protected String doInBackground(Void... params) {
                 RequestHandler rh = new RequestHandler();
-                String s = rh.sendGetRequestParam("https://hujanromantis.000webhostapp.com/web_service/delete_kesan.php?id=", id);
+                String s = rh.sendGetRequestParam("https://isna22.000webhostapp.com/web_service/delete_kesan.php?id=", id);
                 return s;
             }
         }

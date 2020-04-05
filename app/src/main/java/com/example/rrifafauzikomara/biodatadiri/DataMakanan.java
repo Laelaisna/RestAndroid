@@ -74,7 +74,7 @@ public class DataMakanan extends AppCompatActivity {
             @Override
             protected String doInBackground(Void... params){
                 RequestHandler rh = new RequestHandler();
-                String s = rh.sendGetRequest("https://hujanromantis.000webhostapp.com/web_service/Makanan/get_all_makanan.php");
+                String s = rh.sendGetRequest("https://isna22.000webhostapp.com/web_service/Makanan/get_all_makanan.php");
                 return s;
             }
         }

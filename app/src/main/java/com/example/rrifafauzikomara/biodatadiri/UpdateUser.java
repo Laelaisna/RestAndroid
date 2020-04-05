@@ -93,7 +93,7 @@ public class UpdateUser extends AppCompatActivity {
             @Override
             protected String doInBackground(Void... params) {
                 RequestHandler rh = new RequestHandler();
-                String s = rh.sendGetRequestParam("https://hujanromantis.000webhostapp.com/web_service/User/get_user.php?id=",id);
+                String s = rh.sendGetRequestParam("https://isna22.000webhostapp.com/web_service/User/get_user.php?id=",id);
                 return s;
             }
         }
@@ -174,7 +174,7 @@ public class UpdateUser extends AppCompatActivity {
 
                 RequestHandler rh = new RequestHandler();
 
-                String s = rh.sendPostRequest("https://hujanromantis.000webhostapp.com/web_service/User/update_user.php", hashMap);
+                String s = rh.sendPostRequest("https://isna22.000webhostapp.com/web_service/User/update_user.php", hashMap);
 
                 return s;
             }
@@ -204,7 +204,7 @@ public class UpdateUser extends AppCompatActivity {
             @Override
             protected String doInBackground(Void... params) {
                 RequestHandler rh = new RequestHandler();
-                String s = rh.sendGetRequestParam("https://hujanromantis.000webhostapp.com/web_service/User/delete_user.php?id=", id);
+                String s = rh.sendGetRequestParam("https://isna22.000webhostapp.com/web_service/User/delete_user.php?id=", id);
                 return s;
             }
         }

@@ -18,7 +18,7 @@ public class Register extends AppCompatActivity {
     private EditText editTextNama, editTextEmail, editTextUsername, editTextPassword, editTextAlamat, editTextTelp;
     private Button btnDaftar, btnKembali;
     private RadioGroup rgJenkel;
-    private static final String REGISTER_URL = "https://hujanromantis.000webhostapp.com/web_service/User/register.php";
+    private static final String REGISTER_URL = "https://isna22.000webhostapp.com/web_service/User/register.php";
     String fullname, email, username, password, gender, address, city, telp;
 
     @Override
